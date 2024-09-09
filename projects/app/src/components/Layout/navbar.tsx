@@ -35,8 +35,10 @@ const Navbar = ({ unread }: { unread: number }) => {
       },
       {
         label: t('navbar.Studio'),
-        icon: 'core/app/aiLight',
-        activeIcon: 'core/app/aiFill',
+        // icon: 'core/app/aiLight',
+        // activeIcon: 'core/app/aiFill',
+        icon: 'core/app/iconai',
+        activeIcon: 'core/app/iconAISelect',
         link: `/app/list`,
         activeLink: ['/app/list', '/app/detail']
       },

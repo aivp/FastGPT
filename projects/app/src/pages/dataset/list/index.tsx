@@ -111,8 +111,9 @@ const Dataset = () => {
         border: 'none',
         boxShadow: '0'
       }}
+      bg={'myWhite.450'}
     >
-      <Flex pt={[4, 6]} bg={'myWhite.450'}>
+      <Flex pt={[4, 6]}>
         <Flex flexGrow={1} flexDirection="column">
           <Flex alignItems={'flex-start'} justifyContent={'space-between'}>
             <ParentPaths
